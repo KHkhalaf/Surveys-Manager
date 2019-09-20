@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:SurveyMonkey_Project.Models"
+             x:Class="Surveys_Manager.Views.Login"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             BackgroundColor="White">
+    <AbsoluteLayout>
+        <Image Source="login_background.jpg"
+               Aspect="AspectFill"
+               AbsoluteLayout.LayoutFlags="All"
+               AbsoluteLayout.LayoutBounds="0, 0.2, 1, 0.6"/>
+        <controls:rendererButtons
+                x:Name="signup"
+                Text="{translator:Translate textSignup}"
+                FontSize="Large"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0, 0.77, 1, 0.13"
+                Clicked="SignUp_clicked">
+        </controls:rendererButtons>
+        <controls:rendererButtons
+                x:Name="signin"
+                Text="{translator:Translate textSignin}"
+                FontSize="Large"
+                AbsoluteLayout.LayoutFlags="All"
+                AbsoluteLayout.LayoutBounds="0, 0.93, 1, 0.13"
+                Clicked="SignIn_clicked">
+        </controls:rendererButtons>
+    </AbsoluteLayout>
+</ContentPage>

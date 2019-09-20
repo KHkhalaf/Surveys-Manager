@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.DetailsShareSurveyPage"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             BackgroundColor="#eeebeb">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="Save" Text="{translator:Translate saveAddSurvey}" Order="Primary" Activated="Save_Activated"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <ActivityIndicator x:Name="ActivityIndicator"
+                                   Color="Teal"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"/>
+                <StackLayout x:Name="stackQuestions"
+                             Spacing="25"
+                             Padding="10"
+                             VerticalOptions="Start"
+                             AbsoluteLayout.LayoutFlags="All"
+                             AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
+                    <Frame  x:Name="contentpage"
+                    Padding="8"
+                    HasShadow="True">
+                        <StackLayout Spacing="15">
+                            <Label  Text="{Binding Title}" 
+                            BackgroundColor="#336cfa"
+                            FontAttributes="Bold"
+                            HeightRequest="70"
+                            WidthRequest="400"
+                            TextColor="White"
+                            VerticalTextAlignment="Center"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Medium"/>
+                            <Label  Text="{Binding Description}"
+                            WidthRequest="400"
+                            HorizontalTextAlignment="Center"
+                            FontSize="Medium"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

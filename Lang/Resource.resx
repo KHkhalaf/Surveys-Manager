@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="check_inputsSignin1" xml:space="preserve">
+    <value>Your Information Should be not empty ...</value>
+  </data>
+  <data name="check_inputsSignin2" xml:space="preserve">
+    <value>length password  should be less than 8  ...</value>
+  </data>
+  <data name="check_inputsSignin3" xml:space="preserve">
+    <value>Your inputs should be not contain character like '~'</value>
+  </data>
+  <data name="check_inputsSignin4" xml:space="preserve">
+    <value>Your Email is incorrect ...</value>
+  </data>
+  <data name="check_inputsSignin5" xml:space="preserve">
+    <value>Check Your Email or Password ...</value>
+  </data>
+  <data name="confirmPassword" xml:space="preserve">
+    <value>the confirm of your password is incorrect ...</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>CREATE</value>
+  </data>
+  <data name="createsurveybtn" xml:space="preserve">
+    <value>Create Survey</value>
+  </data>
+  <data name="Create_Surveys" xml:space="preserve">
+    <value>Create Your Surveys</value>
+  </data>
+  <data name="detailsCreate1" xml:space="preserve">
+    <value>Welcome to SurveyManager - the world's leading</value>
+  </data>
+  <data name="detailsCreate2" xml:space="preserve">
+    <value>survey platform. Create your next survey and use the</value>
+  </data>
+  <data name="detailsCreate3" xml:space="preserve">
+    <value>insiths to make better decisions.</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>    Welcome To Survey Manager</value>
+  </data>
+  <data name="insights" xml:space="preserve">
+    <value>Use the insights to make better decisions.</value>
+  </data>
+  <data name="last1" xml:space="preserve">
+    <value>By Tapping 'Enter' . You agree to our</value>
+  </data>
+  <data name="last2" xml:space="preserve">
+    <value>'Terms Of Use'</value>
+  </data>
+  <data name="last3" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="last4" xml:space="preserve">
+    <value>Mobil App Privacy Statment</value>
+  </data>
+  <data name="last5" xml:space="preserve">
+    <value>and also agree</value>
+  </data>
+  <data name="last6" xml:space="preserve">
+    <value>to receving news and tips via email</value>
+  </data>
+  <data name="menutitle" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="notConnect" xml:space="preserve">
+    <value>isn't Connect With Local Server</value>
+  </data>
+  <data name="NotFoundAccounts" xml:space="preserve">
+    <value>Don't Have Any Account</value>
+  </data>
+  <data name="ph_age" xml:space="preserve">
+    <value>Enter Your Age</value>
+  </data>
+  <data name="ph_country" xml:space="preserve">
+    <value>Enter Your Country</value>
+  </data>
+  <data name="ph_email" xml:space="preserve">
+    <value>Enter Your Email</value>
+  </data>
+  <data name="ph_password" xml:space="preserve">
+    <value>Enter Your Pasword</value>
+  </data>
+  <data name="ph_username" xml:space="preserve">
+    <value>Enter User Name</value>
+  </data>
+  <data name="ph_Ver_password" xml:space="preserve">
+    <value>Verify Your Password</value>
+  </data>
+  <data name="textEnterSignup" xml:space="preserve">
+    <value>Enter</value>
+  </data>
+  <data name="textSignin" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="textSignup" xml:space="preserve">
+    <value>Sign up</value>
+  </data>
+  <data name="titlemaster1" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="titlemaster2" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="titlemaster3" xml:space="preserve">
+    <value>About us</value>
+  </data>
+  <data name="titlemaster4" xml:space="preserve">
+    <value>Shared Surveys</value>
+  </data>
+  <data name="titlemaster5" xml:space="preserve">
+    <value>Received Surveys</value>
+  </data>
+  <data name="titlemaster6" xml:space="preserve">
+    <value>Sign out</value>
+  </data>
+  <data name="titleSignin" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+  <data name="titleSignup" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="toolbarsurvey" xml:space="preserve">
+    <value>New Survey</value>
+  </data>
+  <data name="username_same_email" xml:space="preserve">
+    <value>there are same UserName or Email ...</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Welcome!</value>
+  </data>
+  <data name="btnCancelMessage" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnOkMessage" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="deleteSurveytoolbar" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="detailsMessageShareSurvey" xml:space="preserve">
+    <value>Are You Sure To Share </value>
+  </data>
+  <data name="ph_survey_descripation" xml:space="preserve">
+    <value>Enter Survey Description</value>
+  </data>
+  <data name="ph_survey_title" xml:space="preserve">
+    <value>Enter Survey Title</value>
+  </data>
+  <data name="saveAddSurvey" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="shareSurveytoolbar" xml:space="preserve">
+    <value>Share</value>
+  </data>
+  <data name="sharing" xml:space="preserve">
+    <value>Sharing</value>
+  </data>
+  <data name="survey" xml:space="preserve">
+    <value> Survey </value>
+  </data>
+  <data name="view_details" xml:space="preserve">
+    <value>View Details</value>
+  </data>
+  <data name="bodyMessage" xml:space="preserve">
+    <value> Changes will be discarded</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="cancel_cab" xml:space="preserve">
+    <value>CANCEL</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>Deleteing</value>
+  </data>
+  <data name="detailsMessageDeleteSurvey" xml:space="preserve">
+    <value>Are You Sure To Delete </value>
+  </data>
+  <data name="DropDownQuestion" xml:space="preserve">
+    <value> Drop Down</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="maxValue" xml:space="preserve">
+    <value>Max :</value>
+  </data>
+  <data name="minValue" xml:space="preserve">
+    <value>Min :</value>
+  </data>
+  <data name="MultibleQuestion" xml:space="preserve">
+    <value> Multiple Choice</value>
+  </data>
+  <data name="NoQuestions" xml:space="preserve">
+    <value> You don't have any questions on this page yet.</value>
+  </data>
+  <data name="ph_textQuestion" xml:space="preserve">
+    <value>Enter Question Text</value>
+  </data>
+  <data name="question_text" xml:space="preserve">
+    <value>Question Text</value>
+  </data>
+  <data name="require_text" xml:space="preserve">
+    <value>This question requires an answer.</value>
+  </data>
+  <data name="save_cab" xml:space="preserve">
+    <value>SAVE</value>
+  </data>
+  <data name="selectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="shareWith" xml:space="preserve">
+    <value>Share With :</value>
+  </data>
+  <data name="sliderQuestion" xml:space="preserve">
+    <value> Slider</value>
+  </data>
+  <data name="textQuestion" xml:space="preserve">
+    <value> Text Question</value>
+  </data>
+  <data name="titleDetails" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="titleMessage" xml:space="preserve">
+    <value>Are You Sure ?</value>
+  </data>
+  <data name="addOther" xml:space="preserve">
+    <value>Add 'Other' as an answer choice</value>
+  </data>
+  <data name="age" xml:space="preserve">
+    <value> Age</value>
+  </data>
+  <data name="agebetween20_30" xml:space="preserve">
+    <value>The Age Between (20 - 30)</value>
+  </data>
+  <data name="agebetween30_40" xml:space="preserve">
+    <value>The Age Between (30 - 40)</value>
+  </data>
+  <data name="agebetween40_50" xml:space="preserve">
+    <value>The Age Between (40 - 50)</value>
+  </data>
+  <data name="AnsweredBy" xml:space="preserve">
+    <value>Answered By :</value>
+  </data>
+  <data name="answers" xml:space="preserve">
+    <value> Answers :</value>
+  </data>
+  <data name="Answer_choices" xml:space="preserve">
+    <value>Answer Choices</value>
+  </data>
+  <data name="bodyMessageSave" xml:space="preserve">
+    <value>Save Your Answers , You Will Not Be Able To Answer The Questions ...</value>
+  </data>
+  <data name="btnAnalyse" xml:space="preserve">
+    <value>Analyse</value>
+  </data>
+  <data name="by" xml:space="preserve">
+    <value> By :</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value> Country</value>
+  </data>
+  <data name="Date_signup" xml:space="preserve">
+    <value> Date Response</value>
+  </data>
+  <data name="DetailsDeleting" xml:space="preserve">
+    <value>Delete The Item Selected</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="endDate" xml:space="preserve">
+    <value>The End Date : </value>
+  </data>
+  <data name="Enter_A_Choice" xml:space="preserve">
+    <value>Enter Answer Choice</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="filterBy" xml:space="preserve">
+    <value>Filter By :</value>
+  </data>
+  <data name="noSharedSurveys" xml:space="preserve">
+    <value>No Shared Surveys</value>
+  </data>
+  <data name="NoSurveys" xml:space="preserve">
+    <value>No Shared Surveys With You By Others Users</value>
+  </data>
+  <data name="no_questions" xml:space="preserve">
+    <value>No Questions in this Survey</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ph_enterAcountry" xml:space="preserve">
+    <value>Enter a country</value>
+  </data>
+  <data name="RatioSlider" xml:space="preserve">
+    <value>Ratio Of The Answer :</value>
+  </data>
+  <data name="RatioText" xml:space="preserve">
+    <value>Ratio of Number of Participants</value>
+  </data>
+  <data name="restTheQuestion" xml:space="preserve">
+    <value>  Is Required ..!!!</value>
+  </data>
+  <data name="rest_theTextQuestion" xml:space="preserve">
+    <value> Should Be Not Coontains '~' ..!!</value>
+  </data>
+  <data name="startDate" xml:space="preserve">
+    <value>The Start Date :</value>
+  </data>
+  <data name="the_question" xml:space="preserve">
+    <value>The Question </value>
+  </data>
+  <data name="this_By" xml:space="preserve">
+    <value>This By :</value>
+  </data>
+  <data name="titleAccount" xml:space="preserve">
+    <value>                Account</value>
+  </data>
+  <data name="typePickerMulti_1" xml:space="preserve">
+    <value>Single-select (Radio buttons)</value>
+  </data>
+  <data name="typePickerMulti_2" xml:space="preserve">
+    <value>Multi-select (Check Boxs)</value>
+  </data>
+  <data name="userName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="yourQuestion" xml:space="preserve">
+    <value>  Your Question :</value>
+  </data>
+  <data name="titleEducation" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="titleMarketing" xml:space="preserve">
+    <value>Marketing</value>
+  </data>
+  <data name="titleSport" xml:space="preserve">
+    <value>Sport</value>
+  </data>
+  <data name="other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="selected" xml:space="preserve">
+    <value>  Selected  </value>
+  </data>
+  <data name="unSelected" xml:space="preserve">
+    <value>  UnSelected   </value>
+  </data>
+  <data name="entrySearch" xml:space="preserve">
+    <value>Search By Name or Email ...</value>
+  </data>
+  <data name="BodyreceiveSurvey" xml:space="preserve">
+    <value>There are More Receive Surveys , didn't see them ...</value>
+  </data>
+  <data name="BodyResponsedٍ_Sh_Surveys" xml:space="preserve">
+    <value>There are More Responsed Shared Surveys , didn't see them ...</value>
+  </data>
+  <data name="receivesurveys" xml:space="preserve">
+    <value>Receive Surveys</value>
+  </data>
+  <data name="responsedٍ_Sh_Surveys" xml:space="preserve">
+    <value>Responsed Shared Surveys</value>
+  </data>
+  <data name="createSurveyEducation" xml:space="preserve">
+    <value>Create Survey Education</value>
+  </data>
+  <data name="createSurveyMarketing" xml:space="preserve">
+    <value>Create Survey Marketing</value>
+  </data>
+  <data name="createSurveyOther" xml:space="preserve">
+    <value>Create Survey Other</value>
+  </data>
+  <data name="createSurveySport" xml:space="preserve">
+    <value>Create Survey Sport</value>
+  </data>
+  <data name="NoAccountsSelected" xml:space="preserve">
+    <value>No  Accounts  Selected</value>
+  </data>
+  <data name="Algeria" xml:space="preserve">
+    <value>Algeria</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>Egypt</value>
+  </data>
+  <data name="Iraq" xml:space="preserve">
+    <value>Iraq</value>
+  </data>
+  <data name="Jourdan" xml:space="preserve">
+    <value>Jourdan</value>
+  </data>
+  <data name="KSA" xml:space="preserve">
+    <value>KSA</value>
+  </data>
+  <data name="Libya" xml:space="preserve">
+    <value>Libya</value>
+  </data>
+  <data name="Mauritania" xml:space="preserve">
+    <value>Mauritania</value>
+  </data>
+  <data name="Moroco" xml:space="preserve">
+    <value>Moroco</value>
+  </data>
+  <data name="Syria" xml:space="preserve">
+    <value>Syria</value>
+  </data>
+  <data name="Tunisia" xml:space="preserve">
+    <value>Tunisia</value>
+  </data>
+  <data name="UIA" xml:space="preserve">
+    <value>UIA</value>
+  </data>
+  <data name="USA" xml:space="preserve">
+    <value>USA</value>
+  </data>
+  <data name="dangerSignOut" xml:space="preserve">
+    <value>Are You Sure ...... ?</value>
+  </data>
+</root>

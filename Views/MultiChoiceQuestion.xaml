@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.MultiChoiceQuestion"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers">
+    <ScrollView>
+        <StackLayout x:Name="stackquestions">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Padding="15,15,15,10"
+                             Spacing="15">
+                    <Image Source="check.png"
+                           Scale="1.5"
+                           HorizontalOptions="StartAndExpand">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="SaveData_Activated"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                    <Label Text="{translator:Translate MultibleQuestion}"
+                           FontSize="Medium"
+                           HorizontalOptions="End"/>
+                    <Image Source="close.png"
+                           Scale="1.5"
+                           HorizontalOptions="End">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="closePageRecognizer_Tapped"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+                <Label BackgroundColor="#807f7f"
+                       HeightRequest="1"/>
+            </StackLayout>
+            <StackLayout Padding="15,50,15,0"
+                         Spacing="20">
+                <Label Text="{translator:Translate question_text}"
+                       FontAttributes="Bold"
+                       TextColor="#1fe887"/>
+                <Entry x:Name="questionEntry"
+                       Text="{Binding title}"
+                       Placeholder="{translator:Translate ph_textQuestion}"/>
+                <!-- answer choices -->
+                <Label Text="{translator:Translate Answer_choices}"
+                       FontAttributes="Bold"
+                       TextColor="#1fe887"/>
+                <StackLayout x:Name="stackAnswerChoice">
+                    <Grid x:Name="grid2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Entry x:Name="entry1"
+                               Grid.Column="0"
+                               Placeholder="{translator:Translate Enter_A_Choice}"
+                               HorizontalOptions="FillAndExpand"/>
+                        <Image Source="cancel1.png"
+                               x:Name="imgDeleteQuestion1"
+                               Grid.Column="1"
+                               HorizontalOptions="End">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="DeleteAnswerChoice_Activated"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                    <Grid x:Name="grid1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="8*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        <Entry x:Name="entry2"
+                               Grid.Column="0"
+                               Placeholder="{translator:Translate Enter_A_Choice}"
+                               HorizontalOptions="FillAndExpand"/>
+                        <Image Source="cancel2.png"
+                               x:Name="imgDeleteQuestion2"
+                               Grid.Column="1"
+                               HorizontalOptions="End">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="DeleteAnswerChoice_Activated"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </Grid>
+                </StackLayout>
+                <!--<StackLayout Orientation="Horizontal"
+                             Spacing="5">
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="5">
+                    <Entry Placeholder="Enter Answer Choice"
+                           HorizontalOptions="StartAndExpand"/>
+                    <Image Source="delete.png"
+                           IsEnabled="False"
+                           Opacity="0"
+                           HorizontalOptions="End">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="DeleteAnswerChoice_Activated"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>-->
+
+                <Label x:Name="checkinputs"
+                       TextColor="Red"/>
+                <Image Source="add.png"
+                       Scale="2"
+                       HorizontalOptions="CenterAndExpand">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AddAnswerChoiceRecognizer_Tapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
+                <Label Text="{translator:Translate settings}"
+                       FontAttributes="Bold"
+                       TextColor="#1fe887"/>
+                <Picker x:Name="pickerSelectionType" 
+                            Title="{translator:Translate typePickerMulti_1}" 
+                            SelectedIndexChanged="pickerSelectionType_Selected">
+                </Picker>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{translator:Translate addOther}"
+                           HorizontalOptions="StartAndExpand"/>
+                    <Switch x:Name="switchOtherAnswer"
+                            HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="{translator:Translate require_text}"
+                           HorizontalOptions="StartAndExpand"/>
+                    <Switch x:Name="switchRequireAnswer"
+                            IsToggled="{Binding require_Ans}"
+                            HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+                <Label BackgroundColor="#807f7f"
+                       HeightRequest="1"/>
+                <StackLayout Orientation="Horizontal"
+                             Padding="0,0,0,20">
+                    <Label Text="{translator:Translate cancel_cab}" 
+                           FontAttributes="Bold"
+                           HorizontalOptions="StartAndExpand"
+                           TextColor="#3168b4">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="closePageRecognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                    <Label Text="{translator:Translate save_cab}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="#3168b4">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="SaveData_Activated"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

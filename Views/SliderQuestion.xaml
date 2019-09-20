@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.SliderQuestion"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers">
+    <StackLayout x:Name="stackquestions">
+    <StackLayout>
+        <StackLayout Orientation="Horizontal"
+                             Padding="15,15,15,10"
+                             Spacing="15">
+            <Image Source="check.png"
+                           Scale="1.5"
+                           HorizontalOptions="StartAndExpand">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SaveData_Activated"/>
+                </Image.GestureRecognizers>
+            </Image>
+                <Label Text="{translator:Translate sliderQuestion}"
+                        FontSize="Medium"
+                        HorizontalOptions="End"/>
+            <Image Source="close.png"
+                        Scale="1.5"
+                        HorizontalOptions="End">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="closePageRecognizer_Tapped"/>
+                </Image.GestureRecognizers>
+            </Image>
+        </StackLayout>
+        <Label BackgroundColor="#807f7f"
+                       HeightRequest="1"/>
+    </StackLayout>
+    <StackLayout Padding="15,50,15,0"
+                         Spacing="20">
+            <Label Text="{translator:Translate question_text}"
+                       FontAttributes="Bold"
+                       TextColor="#1fe887"/>
+        <Entry x:Name="questionEntry"
+                   Text="{Binding title}"
+                   Placeholder="{translator:Translate ph_textQuestion}"/>
+
+            <Label Text="{translator:Translate settings}"
+                   FontAttributes="Bold"
+                   TextColor="#1fe887"/>
+        <StackLayout Orientation="Horizontal"
+                         Spacing="13">
+            <Label Text="{translator:Translate minValue}"
+                       VerticalTextAlignment="Center"/>
+            <Entry x:Name="minvalue"
+                       Text="{Binding min_value}"
+                       Keyboard="Numeric"
+                       WidthRequest="90"/>
+            <Label Text="{translator:Translate maxValue}"
+                       VerticalTextAlignment="Center"/>
+            <Entry x:Name="maxvalue"
+                       Text="{Binding max_value}"
+                       Keyboard="Numeric"
+                       WidthRequest="90"/>
+        </StackLayout>
+        <Label x:Name="checkinputs"
+                       TextColor="Red"/>
+        <StackLayout Orientation="Horizontal">
+                <Label Text="{translator:Translate require_text}"
+                       HorizontalOptions="StartAndExpand"/>
+            <Switch x:Name="switchRequireAnswer"
+                        IsToggled="{Binding requireAns}"
+                        HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <Label BackgroundColor="#807f7f"
+                       HeightRequest="1"/>
+        <StackLayout Orientation="Horizontal">
+                <Label Text="{translator:Translate cancel_cab}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="StartAndExpand"
+                           TextColor="#3168b4">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="closePageRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+                <Label Text="{translator:Translate save_cab}"
+                           FontAttributes="Bold"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="#3168b4">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="SaveData_Activated"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

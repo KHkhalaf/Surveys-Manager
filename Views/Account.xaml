@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:SurveyMonkey_Project.Models"
+             x:Class="Surveys_Manager.Views.Account"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             xmlns:ImageCircle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             Title="{translator:Translate titleAccount}"
+             BackgroundColor="#ededed">
+            <ContentPage.ToolbarItems>
+                <ToolbarItem Text="{translator:Translate btnEdit}"
+                         Activated="Edit_Gesture_Tapped"/>
+            </ContentPage.ToolbarItems>
+    <ScrollView>
+        <AbsoluteLayout>
+            <StackLayout x:Name="contentpage"
+                         Orientation="Vertical"
+                         VerticalOptions="Start"
+                         AbsoluteLayout.LayoutFlags="SizeProportional"
+                         AbsoluteLayout.LayoutBounds="0, 5, 1, 1">
+                <ImageCircle:CircleImage Source="user.png"
+                                         WidthRequest="100"
+                                         HeightRequest="100">
+                </ImageCircle:CircleImage>
+                <StackLayout Orientation="Horizontal"
+                     Padding="6">
+                    <Label Text="{translator:Translate userName}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                   HasShadow="True"
+                   OutlineColor="#211f17"
+                   HorizontalOptions="EndAndExpand">
+                        <Label x:Name="username"
+                       FontSize="Large"
+                               TextColor="Black"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="White"/>
+                    </Frame>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal"
+                     Padding="10">
+                    <Label Text="{translator:Translate email}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                   HasShadow="True"
+                   OutlineColor="#211f17"
+                   HorizontalOptions="EndAndExpand">
+                        <Label x:Name="Email"
+                       FontSize="Large"
+                               TextColor="Black"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="White"/>
+                    </Frame>
+                    <Label BackgroundColor="Black"
+                       HeightRequest="2"/>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal"
+                         Padding="10">
+                    <Label Text="{translator:Translate password}"
+                       FontSize="Large"
+                       HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                       HasShadow="True"
+                       OutlineColor="#211f17"
+                       HorizontalOptions="EndAndExpand">
+                        <Label x:Name="Password"
+                       FontSize="Large"
+                               TextColor="Black"
+                           HorizontalOptions="EndAndExpand"
+                           BackgroundColor="White"/>
+                    </Frame>
+                    <Label BackgroundColor="Black"
+                   HeightRequest="2"/>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal"
+                     Padding="10">
+                    <Label Text="{translator:Translate age}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                   HasShadow="True"
+                   OutlineColor="#211f17"
+                   HorizontalOptions="EndAndExpand">
+                        <Label x:Name="age"
+                               TextColor="Black"
+                       FontSize="Large"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="White"/>
+                    </Frame>
+                    <Label BackgroundColor="Black"
+                   HeightRequest="2"/>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal"
+                     Padding="10">
+                    <Label Text="{translator:Translate country}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                   HasShadow="True"
+                   OutlineColor="#211f17"
+                   HorizontalOptions="EndAndExpand">
+                        <Label x:Name="country"
+                               TextColor="Black"
+                       FontSize="Large"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="White"/>
+                    </Frame>
+                    <Label BackgroundColor="Black"
+                   HeightRequest="2"/>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+                <StackLayout Orientation="Horizontal"
+                     Padding="10">
+                    <Label Text="{translator:Translate Date_signup}"
+                   FontSize="Large"
+                   HorizontalTextAlignment="Start"/>
+                    <Frame Padding="2"
+                   HasShadow="True"
+                   OutlineColor="#211f17"
+                   HorizontalOptions="EndAndExpand">
+                        <Label x:Name="date"
+                               TextColor="Black"
+                       FontSize="Large"
+                       HorizontalOptions="EndAndExpand"
+                       BackgroundColor="White"/>
+                    </Frame>
+                    <Label BackgroundColor="Black"
+                   HeightRequest="2"/>
+                </StackLayout>
+                <Label BackgroundColor="Black"
+               Margin="10"
+               HeightRequest="2"/>
+            </StackLayout>
+            <ActivityIndicator x:Name="ActivityIndicator"
+                           Color="Teal"
+                           AbsoluteLayout.LayoutFlags="PositionProportional"
+                           AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"/>
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

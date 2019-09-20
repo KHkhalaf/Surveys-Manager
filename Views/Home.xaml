@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.Home">
+    <MasterDetailPage.Master>
+        <ContentPage Title="menu"
+                     BackgroundColor="#e8e8e8">
+            <StackLayout Orientation="Vertical"
+                         BackgroundColor="White">
+                <StackLayout.Children>
+                    <Label Text="{Binding Header}"/>
+                    <Image Source="{Binding Image}" Aspect="Fill"/>
+                    <Label Text="{Binding Footer}"
+                           FontSize="20"
+                           HorizontalTextAlignment="Center"
+                           HorizontalOptions="CenterAndExpand"
+                           FontAttributes="Bold"/>
+                </StackLayout.Children>
+                <ListView x:Name="navigationDrawerList"
+                          RowHeight="55"
+                          SeparatorVisibility="Default"
+                          BackgroundColor="White"
+                          ItemSelected="OnMenuItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal"
+                                             VerticalOptions="FillAndExpand"
+                                             Padding="20,10,0,10"
+                                             Spacing="20">
+                                    <Image Source="{Binding Icon}"
+                                           WidthRequest="40"
+                                           HeightRequest="40" 
+                                           VerticalOptions="Start"/>
+                                    <Label Text="{Binding Title}"
+                                           FontSize="Small"
+                                           VerticalOptions="End"
+                                           TextColor="Black"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

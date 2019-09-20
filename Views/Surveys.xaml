@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.Surveys"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             xmlns:ImageCircle="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin.Abstractions"
+             BackgroundColor="#eeebeb">
+    <ContentPage Title="{translator:Translate titleEducation}">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="{translator:Translate toolbarsurvey}"
+                         Activated="Create_SurveyEducation"/>
+        </ContentPage.ToolbarItems>
+        <AbsoluteLayout>
+        <ActivityIndicator x:Name="ActivityIndicator"
+                               Color="Teal"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"/>
+        <StackLayout Orientation="Vertical"
+                         AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                         x:Name="contentpageEducation">
+                <Frame x:Name="stackEducation"
+                       Padding="5"
+                       HasShadow="True">
+                    <StackLayout Orientation="Vertical"
+                                     Padding="10">
+                        <Label Text="{translator:Translate welcome}"
+                               FontSize="Large"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="{translator:Translate detailsCreate1}"
+                               FontSize="Small"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="{translator:Translate detailsCreate2}"
+                               FontSize="Small"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"/>
+                        <Label Text="{translator:Translate detailsCreate3}"
+                               FontSize="Small"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Frame>
+                <ListView x:Name="listSurveysEducation"
+                          ItemTapped="listSurveys_ItemTapped"
+                          HasUnevenRows="True"
+                          SeparatorVisibility="None"
+                          IsPullToRefreshEnabled="True"
+                          Refreshing="listSurveys_Refreshing"
+                          Header="">
+                <ListView.HeaderTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <StackLayout Orientation="Vertical"
+                                             Padding="10,10,10,-10">
+                                <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                <Frame Padding="5">
+                                    <StackLayout Orientation="Vertical"
+                                                     Spacing="12">
+                                        <Label Text="{translator:Translate create}"
+                                                   TextColor="#1fe887"
+                                                   FontSize="Medium"
+                                                   FontAttributes="Bold"
+                                                   HorizontalOptions="Start"/>
+                                        <Label Text="{translator:Translate Create_Surveys}"
+                                                   FontSize="Large"
+                                                   HorizontalOptions="Start"/> 
+                                        <Label Text="{translator:Translate insights}"
+                                                   FontSize="Medium"/>
+                                            <Button x:Name="btnCreatesurveyEducation"
+                                                    FontSize="20"
+                                                    Text="{translator:Translate createSurveyEducation}"
+                                                    TextColor="White"
+                                                    HeightRequest="70"
+                                                    WidthRequest="300"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    BackgroundColor="#1fe887"
+                                                    Clicked="Create_SurveyEducation"/>
+                                            <Image Source="Archive.jpg"/>
+                                        </StackLayout>
+                                </Frame>
+                            </StackLayout>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.HeaderTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="{translator:Translate shareSurveytoolbar}" 
+                                          Clicked="Share_MenuItem_Clicked"/>
+                                <MenuItem Text="{translator:Translate deleteSurveytoolbar}" 
+                                          Clicked="Delete_MenuItem_Clicked"
+                                          IsDestructive="True"/>
+                            </ViewCell.ContextActions>
+                            <StackLayout Padding="10,0,10,35">
+                                <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5,0,5,5">
+                                        <StackLayout>
+                                            <Label Text="{Binding Title_Property}"
+                                                        FontSize="Large"
+                                                        HorizontalOptions="CenterAndExpand"
+                                                        VerticalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Description_Property}"
+                                                        HorizontalOptions="Start"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{translator:Translate created}"
+                                                            FontSize="Small"
+                                                            HorizontalOptions="Start"/>
+                                                <Label Text="{Binding Date_Property}"
+                                                        FontSize="Small"
+                                                        HorizontalOptions="EndAndExpand"/>
+                                            </StackLayout>
+                                            <Label HeightRequest="2"
+                                                   BackgroundColor="#eeebeb"/>
+                                            <Label Text="{translator:Translate view_details}"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#3168b4"
+                                                    BackgroundColor="White"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    FontSize="Medium"/>
+                                        </StackLayout>
+                                    </Frame>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+            <!--  Xaml Code for Popup Create new survey Education-->
+        <Frame x:Name="PopupcreatesurveyEducation" 
+                   IsVisible="False"
+                   OutlineColor="#eeebeb"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.3,230,200">
+            <StackLayout Padding="2"
+                              BackgroundColor="#eeebeb"
+                              Orientation="Vertical">
+                    <Entry  x:Name="TitleEducation"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#eeebeb"
+                        Placeholder="{translator:Translate ph_survey_title}"
+                        HeightRequest="50"
+                        WidthRequest="350"/>
+                    <Entry  x:Name="DescriptionEducation"
+                        BackgroundColor="#eeebeb"
+                        HeightRequest="50"
+                        WidthRequest="350"
+                        HorizontalOptions="CenterAndExpand"
+                        Placeholder="{translator:Translate ph_survey_descripation}"/>
+                    <Label x:Name="checkinputsEducation"
+                        TextColor="Red"
+                        HorizontalOptions="Start"/>
+                <StackLayout Orientation="Horizontal">
+                    <Button Text="{translator:Translate saveAddSurvey}"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="70"
+                            BackgroundColor="White"
+                            TextColor="#3168b4"
+                            FontSize="Small"
+                            Clicked="SaveSurveyEducation"/>
+                    <Button Text="{translator:Translate btnCancelMessage}"
+                            HorizontalOptions="EndAndExpand"
+                            WidthRequest="100"
+                            BackgroundColor="White"
+                            FontSize="Small"
+                            Clicked="Cancel"/>
+                </StackLayout>
+            </StackLayout>
+            </Frame>
+    </AbsoluteLayout>
+    </ContentPage>
+    <ContentPage Title="{translator:Translate titleSport}">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="{translator:Translate toolbarsurvey}"
+                         Activated="Create_SurveySport"/>
+        </ContentPage.ToolbarItems>
+        <AbsoluteLayout>
+            <StackLayout Orientation="Vertical"
+                         AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                         x:Name="contentpageSport">
+                <ListView x:Name="listSurveysSport"
+                          ItemTapped="listSurveys_ItemTapped"
+                          HasUnevenRows="True"
+                          SeparatorVisibility="None"
+                          IsPullToRefreshEnabled="True"
+                          Refreshing="listSurveys_Refreshing"
+                          Header="">
+                    <ListView.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackLayout Orientation="Vertical"
+                                             Padding="10,10,10,10">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5">
+                                        <StackLayout Orientation="Vertical"
+                                                     Spacing="12">
+                                            <Label Text="{translator:Translate create}"
+                                                   TextColor="#1fe887"
+                                                   FontSize="Medium"
+                                                   FontAttributes="Bold"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate Create_Surveys}"
+                                                   FontSize="Large"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate insights}"
+                                                   FontSize="Medium"/>
+                                            <Button x:Name="btnCreatesurveySport"
+                                                    Text="{translator:Translate createSurveySport}"
+                                                    FontSize="20"
+                                                    TextColor="White"
+                                                    HeightRequest="70"
+                                                    WidthRequest="300"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    BackgroundColor="#1fe887"
+                                                    Clicked="Create_SurveySport"/>
+                                            <Image Source="survey_sport.jfif"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.HeaderTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Text="{translator:Translate shareSurveytoolbar}" 
+                                          Clicked="Share_MenuItem_Clicked"/>
+                                    <MenuItem Text="{translator:Translate deleteSurveytoolbar}" 
+                                          Clicked="Delete_MenuItem_Clicked"
+                                          IsDestructive="True"/>
+                                </ViewCell.ContextActions>
+                                <StackLayout Padding="10,0,10,35">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5,0,5,5">
+                                        <StackLayout>
+                                            <Label Text="{Binding Title_Property}"
+                                                        FontSize="Large"
+                                                        HorizontalOptions="CenterAndExpand"
+                                                        VerticalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Description_Property}"
+                                                        HorizontalOptions="Start"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{translator:Translate created}"
+                                                            FontSize="Small"
+                                                            HorizontalOptions="Start"/>
+                                                <Label Text="{Binding Date_Property}"
+                                                        FontSize="Small"
+                                                        HorizontalOptions="EndAndExpand"/>
+                                            </StackLayout>
+                                            <Label HeightRequest="2"
+                                                   BackgroundColor="#eeebeb"/>
+                                            <Label Text="{translator:Translate view_details}"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#3168b4"
+                                                    BackgroundColor="White"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    FontSize="Medium"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            <!--  Xaml Code for Popup Create new survey Sport-->
+            <Frame x:Name="PopupcreatesurveySport" 
+                   IsVisible="False"
+                   OutlineColor="#eeebeb"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.3,230,200">
+                <StackLayout Padding="2"
+                              BackgroundColor="#eeebeb"
+                              Orientation="Vertical">
+                    <Entry  x:Name="TitleSport"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#eeebeb"
+                        Placeholder="{translator:Translate ph_survey_title}"
+                        HeightRequest="50"
+                        WidthRequest="350"/>
+                    <Entry  x:Name="DescriptionSport"
+                        BackgroundColor="#eeebeb"
+                        HeightRequest="50"
+                        WidthRequest="350"
+                        HorizontalOptions="CenterAndExpand"
+                        Placeholder="{translator:Translate ph_survey_descripation}"/>
+                    <Label x:Name="checkinputsSport"
+                        TextColor="Red"
+                        HorizontalOptions="Start"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate saveAddSurvey}"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="70"
+                            BackgroundColor="White"
+                            TextColor="#3168b4"
+                            FontSize="Small"
+                            Clicked="SaveSurveySport"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                            HorizontalOptions="EndAndExpand"
+                            WidthRequest="100"
+                            BackgroundColor="White"
+                            FontSize="Small"
+                            Clicked="Cancel"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </AbsoluteLayout>
+    </ContentPage>
+    <ContentPage Title="{translator:Translate titleMarketing}">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="{translator:Translate toolbarsurvey}"
+                         Activated="Create_SurveyMarketing"/>
+        </ContentPage.ToolbarItems>
+        <AbsoluteLayout>
+            <StackLayout Orientation="Vertical"
+                         AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                         x:Name="contentpageMarketing">
+                <ListView x:Name="listSurveysMarketing"
+                          ItemTapped="listSurveys_ItemTapped"
+                          HasUnevenRows="True"
+                          SeparatorVisibility="None"
+                          IsPullToRefreshEnabled="True"
+                          Refreshing="listSurveys_Refreshing"
+                          Header="">
+                    <ListView.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackLayout Orientation="Vertical"
+                                             Padding="10,10,10,10">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5">
+                                        <StackLayout Orientation="Vertical"
+                                                     Spacing="12">
+                                            <Label Text="{translator:Translate create}"
+                                                   TextColor="#1fe887"
+                                                   FontSize="Medium"
+                                                   FontAttributes="Bold"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate Create_Surveys}"
+                                                   FontSize="Large"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate insights}"
+                                                   FontSize="Medium"/>
+                                            <Button x:Name="btnCreatesurveyMarketing"
+                                                    Text="{translator:Translate createSurveyMarketing}"
+                                                    FontSize="20"
+                                                    TextColor="White"
+                                                    HeightRequest="70"
+                                                    WidthRequest="300"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    BackgroundColor="#1fe887"
+                                                    Clicked="Create_SurveyMarketing"/>
+                                            <Image Source="survey_marketing.jfif"
+                                                   MinimumHeightRequest="400"
+                                                   Aspect="AspectFill"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.HeaderTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Text="{translator:Translate shareSurveytoolbar}" 
+                                          Clicked="Share_MenuItem_Clicked"/>
+                                    <MenuItem Text="{translator:Translate deleteSurveytoolbar}" 
+                                          Clicked="Delete_MenuItem_Clicked"
+                                          IsDestructive="True"/>
+                                </ViewCell.ContextActions>
+                                <StackLayout Padding="10,0,10,35">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5,0,5,5">
+                                        <StackLayout>
+                                            <Label Text="{Binding Title_Property}"
+                                                        FontSize="Large"
+                                                        HorizontalOptions="CenterAndExpand"
+                                                        VerticalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Description_Property}"
+                                                        HorizontalOptions="Start"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{translator:Translate created}"
+                                                            FontSize="Small"
+                                                            HorizontalOptions="Start"/>
+                                                <Label Text="{Binding Date_Property}"
+                                                        FontSize="Small"
+                                                        HorizontalOptions="EndAndExpand"/>
+                                            </StackLayout>
+                                            <Label HeightRequest="2"
+                                                   BackgroundColor="#eeebeb"/>
+                                            <Label Text="{translator:Translate view_details}"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#3168b4"
+                                                    BackgroundColor="White"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    FontSize="Medium"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+            <!--  Xaml Code for Popup Create new survey Marketing-->
+            <Frame x:Name="PopupcreatesurveyMarketing" 
+                   IsVisible="False"
+                   OutlineColor="#eeebeb"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.3,230,200">
+                <StackLayout Padding="2"
+                              BackgroundColor="#eeebeb"
+                              Orientation="Vertical">
+                    <Entry  x:Name="TitleMarketing"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#eeebeb"
+                        Placeholder="{translator:Translate ph_survey_title}"
+                        HeightRequest="50"
+                        WidthRequest="350"/>
+                    <Entry  x:Name="DescriptionMarketing"
+                        BackgroundColor="#eeebeb"
+                        HeightRequest="50"
+                        WidthRequest="350"
+                        HorizontalOptions="CenterAndExpand"
+                        Placeholder="{translator:Translate ph_survey_descripation}"/>
+                    <Label x:Name="checkinputsMarketing"
+                        TextColor="Red"
+                        HorizontalOptions="Start"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate saveAddSurvey}"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="70"
+                            BackgroundColor="White"
+                            TextColor="#3168b4"
+                            FontSize="Small"
+                            Clicked="SaveSurveyMarketing"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                            HorizontalOptions="EndAndExpand"
+                            WidthRequest="100"
+                            BackgroundColor="White"
+                            FontSize="Small"
+                            Clicked="Cancel"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </AbsoluteLayout>
+    </ContentPage>
+    <ContentPage Title="{translator:Translate other}">
+        <ContentPage.ToolbarItems>
+            <ToolbarItem Text="{translator:Translate toolbarsurvey}"
+                         Activated="Create_SurveyOther"/>
+        </ContentPage.ToolbarItems>
+        <AbsoluteLayout>
+            <StackLayout Orientation="Vertical"
+                         AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                         x:Name="contentpageOther">
+                <ListView x:Name="listSurveysOther"
+                          ItemTapped="listSurveys_ItemTapped"
+                          HasUnevenRows="True"
+                          SeparatorVisibility="None"
+                          IsPullToRefreshEnabled="True"
+                          Refreshing="listSurveys_Refreshing"
+                          Header="">
+                    <ListView.HeaderTemplate>
+                        <DataTemplate>
+                            <Grid>
+                                <StackLayout Orientation="Vertical"
+                                             Padding="10,10,10,0">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5">
+                                        <StackLayout Orientation="Vertical"
+                                                     Spacing="12">
+                                            <Label Text="{translator:Translate create}"
+                                                   TextColor="#1fe887"
+                                                   FontSize="Medium"
+                                                   FontAttributes="Bold"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate Create_Surveys}"
+                                                   FontSize="Large"
+                                                   HorizontalOptions="Start"/>
+                                            <Label Text="{translator:Translate insights}"
+                                                   FontSize="Medium"/>
+                                            <Button Text="{translator:Translate createSurveyOther}"
+                                                    FontSize="20"
+                                                    TextColor="White"
+                                                    HeightRequest="70"
+                                                    WidthRequest="300"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    BackgroundColor="#1fe887"
+                                                    Clicked="Create_SurveyOther"/>
+                                            <Image Source="survey_other.jfif"
+                                                   Aspect="AspectFill"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </ListView.HeaderTemplate>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <ViewCell.ContextActions>
+                                    <MenuItem Text="{translator:Translate shareSurveytoolbar}" 
+                                          Clicked="Share_MenuItem_Clicked"/>
+                                    <MenuItem Text="{translator:Translate deleteSurveytoolbar}" 
+                                          Clicked="Delete_MenuItem_Clicked"
+                                          IsDestructive="True"/>
+                                </ViewCell.ContextActions>
+                                <StackLayout Padding="10,0,10,35">
+                                    <Label BackgroundColor="#1fe887"
+                                           HeightRequest="4"/>
+                                    <Frame Padding="5,0,5,5">
+                                        <StackLayout>
+                                            <Label Text="{Binding Title_Property}"
+                                                        FontSize="Large"
+                                                        HorizontalOptions="CenterAndExpand"
+                                                        VerticalOptions="CenterAndExpand"/>
+                                            <Label Text="{Binding Description_Property}"
+                                                        HorizontalOptions="Start"/>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label Text="{translator:Translate created}"
+                                                            FontSize="Small"
+                                                            HorizontalOptions="Start"/>
+                                                <Label Text="{Binding Date_Property}"
+                                                        FontSize="Small"
+                                                        HorizontalOptions="EndAndExpand"/>
+                                            </StackLayout>
+                                            <Label HeightRequest="2"
+                                                   BackgroundColor="#eeebeb"/>
+                                            <Label Text="{translator:Translate view_details}"
+                                                    FontAttributes="Bold"
+                                                    TextColor="#3168b4"
+                                                    BackgroundColor="White"
+                                                    HorizontalOptions="CenterAndExpand"
+                                                    VerticalOptions="CenterAndExpand"
+                                                    FontSize="Medium"/>
+                                        </StackLayout>
+                                    </Frame>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+            <!--  Xaml Code for Popup Create new survey Other-->
+            
+            <Frame x:Name="PopupcreatesurveyOther" 
+                   IsVisible="False"
+                   OutlineColor="#eeebeb"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,0.3,230,200">
+                <StackLayout Padding="2"
+                              BackgroundColor="#eeebeb"
+                              Orientation="Vertical">
+                    <Entry  x:Name="TitleOther"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#eeebeb"
+                        Placeholder="{translator:Translate ph_survey_title}"
+                        HeightRequest="50"
+                        WidthRequest="350"/>
+                    <Entry  x:Name="DescriptionOther"
+                        BackgroundColor="#eeebeb"
+                        HeightRequest="50"
+                        WidthRequest="350"
+                        HorizontalOptions="CenterAndExpand"
+                        Placeholder="{translator:Translate ph_survey_descripation}"/>
+                    <Label x:Name="checkinputsOther"
+                        TextColor="Red"
+                        HorizontalOptions="Start"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate saveAddSurvey}"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="70"
+                            BackgroundColor="White"
+                            TextColor="#3168b4"
+                            FontSize="Small"
+                            Clicked="SaveSurveyOther"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                            HorizontalOptions="EndAndExpand"
+                            WidthRequest="100"
+                            BackgroundColor="White"
+                            FontSize="Small"
+                            Clicked="Cancel"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+        </AbsoluteLayout>
+    </ContentPage>
+</TabbedPage>

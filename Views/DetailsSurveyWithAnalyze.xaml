@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.DetailsSurveyWithAnalyze"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             BackgroundColor="#eeebeb">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <ActivityIndicator x:Name="ActivityIndicator"
+                                   Color="Teal"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   AbsoluteLayout.LayoutBounds="0.5,0.5,-1,-1"/>
+                <StackLayout x:Name="stackQuestions"
+                     Spacing="25"
+                     Padding="10"
+                     VerticalOptions="Start"
+                     AbsoluteLayout.LayoutFlags="All"
+                     AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
+                    <Label x:Name="Noquestions"
+                           Text="{translator:Translate no_questions}"
+                           FontSize="Large"
+                           HorizontalTextAlignment="Center"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand"
+                           IsVisible="True"/>
+                </StackLayout>
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

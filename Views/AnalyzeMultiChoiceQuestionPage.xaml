@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="{translator:Translate filter}" Order="Primary" Activated="filter_Activated"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <AbsoluteLayout>
+            <StackLayout x:Name="stackAnswers"
+                         BackgroundColor="White"
+                         Padding="5"
+                         Spacing="8"
+                         AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0, 0, 1, 1">
+                <Label Text="{translator:Translate yourQuestion}"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   TextColor="#1fe887"/>
+                <Label x:Name="lblQuestion"
+                   FontSize="Medium"/>
+                <Label Text="{translator:Translate answers}"
+                   FontAttributes="Bold"
+                   FontSize="Medium"
+                   TextColor="#1fe887"/>
+            </StackLayout>
+
+            <!-- Render Popup Filter by Age -->
+            <Frame x:Name="PopupFilterByAge" 
+                   IsVisible="False"
+                   OutlineColor="#1fe887"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="XProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,100,250,180">
+                <StackLayout Padding="10"
+                             Spacing="15"
+                             BackgroundColor="White"
+                             Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="10">
+                        <Image x:Name="img1"
+                               StyleId="img1"
+                               Source="uncheckedradio.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label StyleId="lbl1"
+                               Text="{translator:Translate agebetween20_30}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="10">
+                        <Image x:Name="img2"
+                               StyleId="img2"
+                               Source="uncheckedradio.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label StyleId="lbl2"
+                               Text="{translator:Translate agebetween30_40}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="10">
+                        <Image x:Name="img3"
+                               StyleId="img3"
+                               Source="uncheckedradio.png">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                        <Label StyleId="lbl3"
+                               Text="{translator:Translate agebetween40_50}">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="FilterByAgeRecognizer_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate filter}"
+                            HorizontalOptions="StartAndExpand"
+                            WidthRequest="90"
+                            BackgroundColor="#1fe887"
+                            TextColor="White"
+                            FontSize="Small"
+                            Clicked="FilterByAgeClicked"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                            HorizontalOptions="EndAndExpand"
+                            WidthRequest="100"
+                            BackgroundColor="#e9e6e6"
+                            FontSize="Small"
+                            Clicked="Cancel_Popup_FilterByAge"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+        <!-- Render Popup Filter by Country -->
+
+            <Frame x:Name="PopupFilterByCountry" 
+                   IsVisible="False"
+                   OutlineColor="#1fe887"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="XProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,100,250,170">
+                <StackLayout Padding="15"
+                             BackgroundColor="White"
+                             Orientation="Vertical">
+                    <Picker x:Name="pickerSelectionCountry" 
+                            SelectedIndexChanged="pickerSelectionCountry_SelectedIndexChanged">
+                    </Picker>
+                    <Label  x:Name="checkinputsCountry"
+                            TextColor="Red"
+                            HorizontalOptions="Start"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate filter}"
+                                HorizontalOptions="StartAndExpand"
+                                WidthRequest="90"
+                                BackgroundColor="#1fe887"
+                                TextColor="White"
+                                FontSize="Small"
+                                Clicked="FilterByCountry_Clicked"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                                HorizontalOptions="EndAndExpand"
+                                WidthRequest="100"
+                                BackgroundColor="#e9e6e6"
+                                FontSize="Small"
+                                Clicked="Cancel_Popup_FilterByCountry"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+        <!-- Render Popup Filter by Date -->
+
+            <Frame x:Name="PopupFilterByDate" 
+                   IsVisible="False"
+                   OutlineColor="#1fe887"
+                   Padding="5"
+                   AbsoluteLayout.LayoutFlags="XProportional"
+                   AbsoluteLayout.LayoutBounds="0.5,100,250,220">
+                <StackLayout Padding="15"
+                             BackgroundColor="White"
+                             Orientation="Vertical">
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="5">
+                        <Label Text="{translator:Translate startDate}"
+                               VerticalTextAlignment="Center"/>
+                        <DatePicker x:Name="date1"
+                                    MinimumDate="2010/1/1" 
+                                    MaximumDate="2030/1/1"
+                                    DateSelected="DatePicker_Start_DateSelected"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 Spacing="5">
+                        <Label Text="{translator:Translate endDate}"
+                               VerticalTextAlignment="Center"/>
+                        <DatePicker x:Name="date2"
+                                    IsEnabled="False"
+                                    MinimumDate="2010/1/1" 
+                                    MaximumDate="2030/1/1"
+                                    DateSelected="DatePicker_End_DateSelected"/>
+                    </StackLayout>
+                    <Label  x:Name="checkinputsDate"
+                            TextColor="Red"
+                            HorizontalOptions="Start"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="{translator:Translate filter}"
+                                HorizontalOptions="StartAndExpand"
+                                WidthRequest="90"
+                                BackgroundColor="#1fe887"
+                                TextColor="White"
+                                FontSize="Small"
+                                Clicked="FilterByDate_Clicked"/>
+                        <Button Text="{translator:Translate btnCancelMessage}"
+                                HorizontalOptions="EndAndExpand"
+                                WidthRequest="100"
+                                BackgroundColor="#e9e6e6"
+                                FontSize="Small"
+                                Clicked="Cancel_Popup_FilterByDate"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+
+        </AbsoluteLayout>
+    </ScrollView>
+</ContentPage>

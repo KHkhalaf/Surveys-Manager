@@ -1,0 +1,420 @@
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.MainPage.xaml.g.cs
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+c:\users\pro hp\documents\visual studio 2017\Projects\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+D:\copy1\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+D:\copy1\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+D:\copy1\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+D:\copy1\copy\LastCopy\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+D:\New folder\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+D:\New folder (1)\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\ar\Surveys_Manager.resources.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Lang.Resource.resources
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Lang.Resource.ar.resources
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.GenerateResource.Cache
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\ar\Surveys_Manager.resources.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.config
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\ar\Surveys_Manager.resources.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.Abstractions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\ImageCircle.Forms.Plugin.Abstractions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Connectivity.Abstractions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.LocalNotifications.Abstractions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.Multilingual.Abstractions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Plugin.SimpleAudioPlayer.Abstractions.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Extensions.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Net.Http.Primitives.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\System.ValueTuple.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Essentials.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.App.config
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csprojResolveAssemblyReference.cache
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Lang.Resource.resources
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Lang.Resource.ar.resources
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.csproj.GenerateResource.Cache
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.App.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Aboutus.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Account.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeMultiChoiceQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeSliderQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.AnalyzeTextQuestionPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsShareSurveyPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurveyWithAnalyze.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DropDownQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Home.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Login.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.MultiChoiceQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ReceivingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharedSurveys.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SharingPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignIn.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SignUp.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.SliderQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.Surveys.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.TextQuestion.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.DetailsSurvey.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.WebViewPage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.Views.ClosePage.xaml.g.cs
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\ar\Surveys_Manager.resources.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.pdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\obj\Debug\Surveys_Manager.dll.mdb
+C:\Users\pro hp\Desktop\llll Last\Surveys Manager\Surveys Manager\Surveys_Manager\bin\Debug\Surveys_Manager.dll.mdb

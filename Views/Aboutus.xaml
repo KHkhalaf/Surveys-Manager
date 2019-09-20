@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Surveys_Manager.Models"
+             x:Class="Surveys_Manager.Views.Aboutus">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CustomeStyleLabel"  TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="Large"/>
+                <Setter Property="FontAttributes"
+                        Value="Bold"/>
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ScrollView>
+        <StackLayout HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     Padding="0,20,0,0"
+                     Spacing="15">
+        <Label Text="Wolf Coders"
+               FontSize="50"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold">
+            <Label.Effects>
+                <local:ShadowEffects Radius="10" 
+                                     DictanceX="10" 
+                                     DistanceY="10">
+                        <local:ShadowEffects.color>
+                            <OnPlatform x:TypeArguments="Color"
+                                        Android="#4b99de"
+                                        iOS="#8accde"
+                                        WinPhone="#0bcadc"/>
+                        </local:ShadowEffects.color>
+                </local:ShadowEffects>
+            </Label.Effects>
+        </Label>
+        <Label Text="~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold">
+            <Label.Effects>
+                <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5"
+                                     color="Black">
+                </local:ShadowEffects>
+            </Label.Effects>
+        </Label>
+        <!-- Names All Coders -->
+                <StackLayout Spacing="10">
+                <Label Text="Khalil Al Khalaf"
+                       Style="{StaticResource CustomeStyleLabel}">
+                    <Label.Effects>
+                        <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5">
+                        </local:ShadowEffects>
+                    </Label.Effects>
+                </Label>
+                <Label Text="Khalied khattabi"
+                       Style="{StaticResource CustomeStyleLabel}">
+                    <Label.Effects>
+                        <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5">
+                        </local:ShadowEffects>
+                    </Label.Effects>
+                </Label>
+                <Label Text="Imad Al Zayat"
+                       Style="{StaticResource CustomeStyleLabel}">
+                    <Label.Effects>
+                        <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5">
+                        </local:ShadowEffects>
+                    </Label.Effects>
+                </Label>
+                <Label Text="Dyaa Tohan"
+                       Style="{StaticResource CustomeStyleLabel}">
+                    <Label.Effects>
+                        <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5">
+                        </local:ShadowEffects>
+                    </Label.Effects>
+                </Label>
+                <Label Text="Hadi Darwish"
+                       Style="{StaticResource CustomeStyleLabel}">
+                    <Label.Effects>
+                        <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5">
+                        </local:ShadowEffects>
+                    </Label.Effects>
+                </Label>
+            </StackLayout>
+            <Label Text="~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~"
+               FontSize="Large"
+               HorizontalTextAlignment="Center"
+               FontAttributes="Bold">
+                <Label.Effects>
+                    <local:ShadowEffects Radius="5" 
+                                     DictanceX="5" 
+                                     DistanceY="5"
+                                     color="Black">
+                    </local:ShadowEffects>
+                </Label.Effects>
+            </Label>
+            <StackLayout HorizontalOptions="CenterAndExpand"
+                         Spacing="10"
+                         Padding="0,0,0,10">
+                <!-- Khalil Al Khalaf -->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png"
+                               HorizontalOptions="Center"/>
+                    <Label Text=": fb/Khalil Khalaf"
+                               TextColor="#307cd4"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToFaceBook_Recognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <!-- KHalied khattabi -->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png"
+                       HorizontalOptions="Center"/>
+                    <Label Text=": fb/Khalied khattabi"
+                               TextColor="#307cd4"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToFaceBook_Recognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <!-- Imad al zayat -->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png"
+                               HorizontalOptions="Center"/>
+                    <Label Text=": fb/Imad Al Zayat"
+                               TextColor="#307cd4"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToFaceBook_Recognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <!-- Dyaa tohan -->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png"
+                               HorizontalOptions="Center"/>
+                    <Label Text=": fb/Dyaa Tohan"
+                               TextColor="#307cd4"
+                               FontSize="Medium"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToFaceBook_Recognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+                <!-- hadi darwish -->
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="facebook.png"
+                               HorizontalOptions="Center"/>
+                    <Label Text=": fb/Hadi Darwish"
+                               TextColor="#307cd4"
+                               FontSize="Medium"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToFaceBook_Recognizer_Tapped"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

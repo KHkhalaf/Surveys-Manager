@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Multilingual</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Multilingual.CrossMultilingual">
+            <summary>
+            Cross platform Multilingual implemenations
+            </summary>
+        </member>
+        <member name="P:Plugin.Multilingual.CrossMultilingual.Current">
+            <summary>
+            Current settings to use
+            </summary>
+        </member>
+    </members>
+</doc>

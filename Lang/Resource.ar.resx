@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="addOther" xml:space="preserve">
+    <value>إضافة "أخرى" للخيارات</value>
+  </data>
+  <data name="age" xml:space="preserve">
+    <value>العمر</value>
+  </data>
+  <data name="agebetween20_30" xml:space="preserve">
+    <value>العمر ما بين 20 - 30 </value>
+  </data>
+  <data name="agebetween30_40" xml:space="preserve">
+    <value>العمر مابين 30 - 40</value>
+  </data>
+  <data name="agebetween40_50" xml:space="preserve">
+    <value>العمر ما بين 40 - 50</value>
+  </data>
+  <data name="AnsweredBy" xml:space="preserve">
+    <value>تمت الإجابة من قبل :</value>
+  </data>
+  <data name="answers" xml:space="preserve">
+    <value> الأجوبة  :</value>
+  </data>
+  <data name="Answer_choices" xml:space="preserve">
+    <value>خيارات الأجوبة</value>
+  </data>
+  <data name="bodyMessage" xml:space="preserve">
+    <value>سيتم تجاهل التغييرات </value>
+  </data>
+  <data name="bodyMessageSave" xml:space="preserve">
+    <value>لن تتمكن من الإجابة على هذا الاستبيان مرة أخرى</value>
+  </data>
+  <data name="btnAnalyse" xml:space="preserve">
+    <value>تحليل</value>
+  </data>
+  <data name="btnCancelMessage" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="btnEdit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="btnOkMessage" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="by" xml:space="preserve">
+    <value>من قبل :</value>
+  </data>
+  <data name="cancel_cab" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="check_inputsSignin1" xml:space="preserve">
+    <value>معلومات الإدخال يجب ألا تكون فارغة</value>
+  </data>
+  <data name="check_inputsSignin2" xml:space="preserve">
+    <value>طول كلمة السر يجب أن يكون أقل من 8</value>
+  </data>
+  <data name="check_inputsSignin3" xml:space="preserve">
+    <value>'~' معلومات الإدخال يجب ألا تحتوي على </value>
+  </data>
+  <data name="check_inputsSignin4" xml:space="preserve">
+    <value>.....  حسابك غير صحيح </value>
+  </data>
+  <data name="check_inputsSignin5" xml:space="preserve">
+    <value>.....  تحقق من حسابك أو من كلمة السر  </value>
+  </data>
+  <data name="confirmPassword" xml:space="preserve">
+    <value>تأكيد كلمة السر غير مطابق</value>
+  </data>
+  <data name="country" xml:space="preserve">
+    <value>البلد</value>
+  </data>
+  <data name="create" xml:space="preserve">
+    <value>إنشاء استبيان</value>
+  </data>
+  <data name="created" xml:space="preserve">
+    <value>أُنشات</value>
+  </data>
+  <data name="createsurveybtn" xml:space="preserve">
+    <value>إنشاء استبيان</value>
+  </data>
+  <data name="Create_Surveys" xml:space="preserve">
+    <value>إنشاء استبياناتك</value>
+  </data>
+  <data name="Date_signup" xml:space="preserve">
+    <value>تاريخ الإجابة</value>
+  </data>
+  <data name="deleteSurveytoolbar" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="deleting" xml:space="preserve">
+    <value>عملية الحذف</value>
+  </data>
+  <data name="detailsCreate1" xml:space="preserve">
+    <value>أهلا بك بمدير الاستعلامات الذي هو في مقدمة المنصات حول العالم </value>
+  </data>
+  <data name="detailsCreate2" xml:space="preserve">
+    <value>أنشأ أولى إستبياناتك وشاركها مع أصدقائك</value>
+  </data>
+  <data name="detailsCreate3" xml:space="preserve">
+    <value>للحصول على أفضل القرارات</value>
+  </data>
+  <data name="DetailsDeleting" xml:space="preserve">
+    <value>حذف السؤال المحدد </value>
+  </data>
+  <data name="detailsMessageDeleteSurvey" xml:space="preserve">
+    <value>هل أنت متأكد من عملية الحذف هذه ؟</value>
+  </data>
+  <data name="detailsMessageShareSurvey" xml:space="preserve">
+    <value>هل متأكد من أنك تريد مشاركة </value>
+  </data>
+  <data name="DropDownQuestion" xml:space="preserve">
+    <value>قائمة منسدلة</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="endDate" xml:space="preserve">
+    <value>تاريخ النهاية :</value>
+  </data>
+  <data name="Enter_A_Choice" xml:space="preserve">
+    <value>ادخل خيار للإجابة</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>فلترة</value>
+  </data>
+  <data name="filterBy" xml:space="preserve">
+    <value>فلترة من خلال :</value>
+  </data>
+  <data name="footer" xml:space="preserve">
+    <value>   أهلاً بك في مدير الإستعلامات</value>
+  </data>
+  <data name="go" xml:space="preserve">
+    <value>تم</value>
+  </data>
+  <data name="insights" xml:space="preserve">
+    <value>إستخدم الرؤى للحصول على أفضل القرارات الصائبة</value>
+  </data>
+  <data name="last1" xml:space="preserve">
+    <value>من خلال الضغط على "ادخل" , أي أنك موافق</value>
+  </data>
+  <data name="last2" xml:space="preserve">
+    <value>لشروط استخدام </value>
+  </data>
+  <data name="last3" xml:space="preserve">
+    <value>و</value>
+  </data>
+  <data name="last4" xml:space="preserve">
+    <value>وحالة الخصوصية لتتطبيقات الموبايل</value>
+  </data>
+  <data name="last5" xml:space="preserve">
+    <value>كما أنك موافق على</value>
+  </data>
+  <data name="last6" xml:space="preserve">
+    <value>استقبال الأفكار المفيدة والأخبار الحديثة</value>
+  </data>
+  <data name="maxValue" xml:space="preserve">
+    <value>القيمة العظمى :</value>
+  </data>
+  <data name="menutitle" xml:space="preserve">
+    <value>القائمة</value>
+  </data>
+  <data name="minValue" xml:space="preserve">
+    <value>القيمة الدنيا :</value>
+  </data>
+  <data name="MultibleQuestion" xml:space="preserve">
+    <value>متعدد الخيارات</value>
+  </data>
+  <data name="NoQuestions" xml:space="preserve">
+    <value>هذا الاستعلام لا يحوي على أي سؤال حتى هذه اللحظة</value>
+  </data>
+  <data name="noSharedSurveys" xml:space="preserve">
+    <value>لا توجد استبيانات قمت بنشرها</value>
+  </data>
+  <data name="NoSurveys" xml:space="preserve">
+    <value>   لا توجد استعلامات مشاركة معك من قبل أشخاص آخرين ....!</value>
+  </data>
+  <data name="notConnect" xml:space="preserve">
+    <value>غير متصل بالخادم المحلي</value>
+  </data>
+  <data name="NotFoundAccounts" xml:space="preserve">
+    <value> لا تملك أي حساب  ....!</value>
+  </data>
+  <data name="no_questions" xml:space="preserve">
+    <value>لا توجد أسئلة على هذا الاستبيان</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>كلمة السر</value>
+  </data>
+  <data name="ph_age" xml:space="preserve">
+    <value>ادخل عمرك</value>
+  </data>
+  <data name="ph_country" xml:space="preserve">
+    <value>ادخل بلدك</value>
+  </data>
+  <data name="ph_email" xml:space="preserve">
+    <value>ادخل حسابك</value>
+  </data>
+  <data name="ph_enterAcountry" xml:space="preserve">
+    <value>ادخل أي بلد </value>
+  </data>
+  <data name="ph_password" xml:space="preserve">
+    <value>ادخل كلمة السر</value>
+  </data>
+  <data name="ph_survey_descripation" xml:space="preserve">
+    <value>ادخل توصيف عن الاستبيان </value>
+  </data>
+  <data name="ph_survey_title" xml:space="preserve">
+    <value>ادخل عنوان للاستبيان</value>
+  </data>
+  <data name="ph_textQuestion" xml:space="preserve">
+    <value>ادخل نص السؤال</value>
+  </data>
+  <data name="ph_username" xml:space="preserve">
+    <value>ادخل اسم المستخدم </value>
+  </data>
+  <data name="ph_Ver_password" xml:space="preserve">
+    <value>ادخل كلمة المرور من جديد </value>
+  </data>
+  <data name="question_text" xml:space="preserve">
+    <value>نص السؤال</value>
+  </data>
+  <data name="RatioSlider" xml:space="preserve">
+    <value>معدل الإجابة على السؤال :</value>
+  </data>
+  <data name="RatioText" xml:space="preserve">
+    <value>معدل الأشخاص الذين أجابوا على السؤال :</value>
+  </data>
+  <data name="require_text" xml:space="preserve">
+    <value>هذا السؤال الإجابة عليه مطلوبة</value>
+  </data>
+  <data name="restTheQuestion" xml:space="preserve">
+    <value>  الإجابة عليه مطلوبة</value>
+  </data>
+  <data name="rest_theTextQuestion" xml:space="preserve">
+    <value>"~" يجب ألا تحتوي على </value>
+  </data>
+  <data name="saveAddSurvey" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="save_cab" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="selectAll" xml:space="preserve">
+    <value>تحديد الكل</value>
+  </data>
+  <data name="settings" xml:space="preserve">
+    <value>خصائص</value>
+  </data>
+  <data name="shareSurveytoolbar" xml:space="preserve">
+    <value>مشاركة</value>
+  </data>
+  <data name="shareWith" xml:space="preserve">
+    <value>مشاركة مع :</value>
+  </data>
+  <data name="sharing" xml:space="preserve">
+    <value>عملية المشاركة</value>
+  </data>
+  <data name="sliderQuestion" xml:space="preserve">
+    <value> شريط التمرير</value>
+  </data>
+  <data name="startDate" xml:space="preserve">
+    <value>تاريخ البداية :</value>
+  </data>
+  <data name="survey" xml:space="preserve">
+    <value>  استبيان</value>
+  </data>
+  <data name="textEnterSignup" xml:space="preserve">
+    <value>ادخل</value>
+  </data>
+  <data name="textQuestion" xml:space="preserve">
+    <value>سؤال نصي </value>
+  </data>
+  <data name="textSignin" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="textSignup" xml:space="preserve">
+    <value>حساب جديد</value>
+  </data>
+  <data name="the_question" xml:space="preserve">
+    <value>السؤال  </value>
+  </data>
+  <data name="this_By" xml:space="preserve">
+    <value>من قبل :</value>
+  </data>
+  <data name="titleAccount" xml:space="preserve">
+    <value>                الحساب</value>
+  </data>
+  <data name="titleDetails" xml:space="preserve">
+    <value>تفاصيل</value>
+  </data>
+  <data name="titlemaster1" xml:space="preserve">
+    <value>القائمة الرئيسية</value>
+  </data>
+  <data name="titlemaster2" xml:space="preserve">
+    <value>الحساب</value>
+  </data>
+  <data name="titlemaster3" xml:space="preserve">
+    <value>من نحن</value>
+  </data>
+  <data name="titlemaster4" xml:space="preserve">
+    <value>استبيانات قمت مشاركتها</value>
+  </data>
+  <data name="titlemaster5" xml:space="preserve">
+    <value>استبيانات وصلتك من الآخرين</value>
+  </data>
+  <data name="titlemaster6" xml:space="preserve">
+    <value>تسجيل الخروج</value>
+  </data>
+  <data name="titleMessage" xml:space="preserve">
+    <value>هل أنك متأكد</value>
+  </data>
+  <data name="titleSignin" xml:space="preserve">
+    <value>تسجيل الدخول</value>
+  </data>
+  <data name="titleSignup" xml:space="preserve">
+    <value>حساب جديد</value>
+  </data>
+  <data name="toolbarsurvey" xml:space="preserve">
+    <value>استبيان جديد</value>
+  </data>
+  <data name="typePickerMulti_1" xml:space="preserve">
+    <value>تحديد خيار وحيد</value>
+  </data>
+  <data name="typePickerMulti_2" xml:space="preserve">
+    <value>تحديد عدة خيارات</value>
+  </data>
+  <data name="userName" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="username_same_email" xml:space="preserve">
+    <value>يوجد هناك نفس الإيميل </value>
+  </data>
+  <data name="view_details" xml:space="preserve">
+    <value>تفاصيل الاستبيان</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>أهلاً بك</value>
+  </data>
+  <data name="yourQuestion" xml:space="preserve">
+    <value>سؤالك هو :</value>
+  </data>
+  <data name="titleEducation" xml:space="preserve">
+    <value>تعليمي</value>
+  </data>
+  <data name="titleMarketing" xml:space="preserve">
+    <value>تسويق</value>
+  </data>
+  <data name="titleSport" xml:space="preserve">
+    <value>رياضي</value>
+  </data>
+  <data name="other" xml:space="preserve">
+    <value>أخرى</value>
+  </data>
+  <data name="selected" xml:space="preserve">
+    <value>لقد قمت بتحديد  </value>
+  </data>
+  <data name="unSelected" xml:space="preserve">
+    <value>لقد ألغيت تحديد  </value>
+  </data>
+  <data name="entrySearch" xml:space="preserve">
+    <value>البحث عن طريق الإسم أو الإيميل</value>
+  </data>
+  <data name="BodyreceiveSurvey" xml:space="preserve">
+    <value> ... هناك العديد من الاستبيانات لم تقم بالإجابة عليها </value>
+  </data>
+  <data name="BodyResponsedٍ_Sh_Surveys" xml:space="preserve">
+    <value>هناك العديد من الإستبيانات قمت بمشاركتها الآخرين وقاموا بالإجابة عليها</value>
+  </data>
+  <data name="receivesurveys" xml:space="preserve">
+    <value>استبيانات مستقبلة </value>
+  </data>
+  <data name="responsedٍ_Sh_Surveys" xml:space="preserve">
+    <value>استبيانات شاركتها مع الآخرين </value>
+  </data>
+  <data name="createSurveyEducation" xml:space="preserve">
+    <value>إنشاء استبيان تعليمي</value>
+  </data>
+  <data name="createSurveyMarketing" xml:space="preserve">
+    <value>إنشاء استبيان للتسوق الإلكتروني</value>
+  </data>
+  <data name="createSurveyOther" xml:space="preserve">
+    <value>إنشاء نوع آخر من الإستبيانات</value>
+  </data>
+  <data name="createSurveySport" xml:space="preserve">
+    <value>إنشاء استبيان رياضي</value>
+  </data>
+  <data name="NoAccountsSelected" xml:space="preserve">
+    <value>يجب أن تقوم بمشاركة حساب واحد على الأقل ....! </value>
+  </data>
+  <data name="Algeria" xml:space="preserve">
+    <value>الجزائر</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>مصر</value>
+  </data>
+  <data name="Iraq" xml:space="preserve">
+    <value>العراق</value>
+  </data>
+  <data name="Jourdan" xml:space="preserve">
+    <value>الجمهورية الأردنية الهاشمية</value>
+  </data>
+  <data name="KSA" xml:space="preserve">
+    <value>المملكة العربية السعودية</value>
+  </data>
+  <data name="Libya" xml:space="preserve">
+    <value>ليبيا</value>
+  </data>
+  <data name="Mauritania" xml:space="preserve">
+    <value>موريتانيا</value>
+  </data>
+  <data name="Moroco" xml:space="preserve">
+    <value>المغرب</value>
+  </data>
+  <data name="Syria" xml:space="preserve">
+    <value>سوريا</value>
+  </data>
+  <data name="Tunisia" xml:space="preserve">
+    <value>تونس</value>
+  </data>
+  <data name="UIA" xml:space="preserve">
+    <value>الإمارات العربية المتحدة </value>
+  </data>
+  <data name="USA" xml:space="preserve">
+    <value>الولايات المتحدة الأمريكية</value>
+  </data>
+  <data name="dangerSignOut" xml:space="preserve">
+    <value>تسجيل الخروج يؤدي إلى حذف كافة البيانات من جهازك ... هل أنت متأكد ؟</value>
+  </data>
+</root>

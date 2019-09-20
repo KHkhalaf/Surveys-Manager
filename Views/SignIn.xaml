@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:SurveyMonkey_Project.Models"
+             x:Class="Surveys_Manager.Views.SignIn"
+             xmlns:translator="clr-namespace:Surveys_Manager.Helpers"
+             BackgroundColor="White"
+             Title="{translator:Translate titleSignin}">
+    <StackLayout Orientation="Vertical"
+                 VerticalOptions="Center"
+                 Padding="20"
+                 Spacing="40">
+        <ActivityIndicator x:Name="ActivityIndicator"
+                           Color="Teal"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="CenterAndExpand"/>
+        <StackLayout x:Name="contentpage"
+                     Orientation="Vertical"
+                     Spacing="15">
+            <Entry x:Name="email"
+                   Placeholder="{translator:Translate ph_email}"
+                   Keyboard="Email"/>
+            <Entry x:Name="password"
+                   Placeholder="{translator:Translate ph_password}"
+                   IsPassword="True"/>
+            <Label x:Name="check_inputs"
+                   TextColor="Red"/>
+            <controls:rendererButtons 
+                    x:Name="enter"
+                    Text="{translator:Translate textEnterSignup}"
+                    FontSize="Large"
+                    Clicked="SignIn_clicked"
+                    HeightRequest="70">
+            </controls:rendererButtons>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

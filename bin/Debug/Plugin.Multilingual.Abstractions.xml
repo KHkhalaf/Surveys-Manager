@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.Multilingual.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.Multilingual.Abstractions.IMultilingual">
+            <summary>
+            Interface for Multilingual
+            </summary>
+        </member>
+    </members>
+</doc>
