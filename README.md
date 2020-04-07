@@ -6,7 +6,7 @@ there are four types of surveys (Education , Sport , Marketing , Other)
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/surveyEducation.png)
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/aboutUS.png)
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/account.png)
-
+-------------------------------------------------------------------------------------------------------------------------------
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/Accounts.png)
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/analysisQuestions.png)
 ![alt text](https://github.com/KHkhalaf/Surveys-Manager/blob/master/Helpers/createSurvey.png)
